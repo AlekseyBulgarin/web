@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #aeadad;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+  
+  max-width: 400px;
+  background-color: aliceblue;
+
+  border-radius: 20px;
+
+}
+
 .header-card{
   display: flex;
   align-items: center;
