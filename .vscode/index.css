@@ -1,9 +1,28 @@
-.header-card{
-  display: flex;
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 1rem;
 }
 
-.novigation{
-  display: flex;
-  align-items: center;
-  gap: 50px;
+
+.status-item {
+    display: flex;
+    align-items: center;  
+    gap: 8px;            
+}
+
+
+.status-item img {
+    display: block;       
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+
+.status-item span {
+    font-size: 14px;
+    line-height: 1;
+    color: #333;
 }
