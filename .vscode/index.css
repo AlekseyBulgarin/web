@@ -1,0 +1,9 @@
+.header-card{
+  display: flex;
+}
+
+.novigation{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
